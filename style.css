@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+#bunny{
+    width: 90px;
+    height: 120px;
+    background-image: url("images/rabbit.svg");
+   
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+   transition: all 0.1s linear;
+    
+    
+}
+
+.jajko{
+
+    height: 70px;
+    width: 50px;
+    position: absolute;
+    top: -5vh;
+    transition: all 4s linear;
+    background-size: cover;
+}
+
+.shoe {
+    width: 70px;
+}
+
+.trawa{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    z-index: -1;
+    background-image: URl("images/trawa.svg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/clouds.svg");
+    background-size: cover;
+    overflow: hidden;
+
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.frame{
+    background-image: url("images/score.png");
+    width: 100px;
+    height: 55px;
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 15px;
+    color: white;
+}
+.frame::after{
+    content: "";
+    background-image: url("images/rysunek-1.svg");
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 55px;
+    width: 30px;
+    left: 17px;
+}
+#hearts{
+    background-image: url("images/hearts.png");
+}
+
+#hearts::after{
+    background-image: url("images/heart.png");
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-image: url("images/stop.svg");
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}

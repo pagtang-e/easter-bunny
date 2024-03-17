@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/clouds.svg");
+    background-size: cover;
+    overflow: hidden;
+
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.trawa{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    z-index: -1;
+    background-image: URl("images/trawa.svg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.frame{
+    margin-inline: auto;
+    margin-top: 5%;
+    height: 380px;
+    width: 550px;
+    background-image: url("images/frame.svg");
+    background-size: contain;
+}
+
+h2{
+    text-align: center;
+    line-height: 360px;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.start{
+
+    height: 75px;
+    width: 195px;
+    background-image: url("images/start.svg");
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    
+    
+
+
+}
+a{
+    
+    position: absolute;
+    margin-top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+h3{
+    color:rgb(95, 78, 66);
+    text-align: center;
+    margin: 0.2em;
+}
+
+#lastScore{
+
+    background-image: url("images/score.png");
+    
+
+}
+
+#bestScore{
+
+
+    background-image: url("images/hearts.png");
+    
+
+}
+
+.score{
+
+    width: 110px;
+    height: 59px;
+    background-size: contain;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.scores{
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+    margin-inline: auto;
+}
+
+#info{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 2%;
+    background-image: url("images/info.svg");
+    background-color: transparent;
+    border: none;
+    background-size: contain;
+}
